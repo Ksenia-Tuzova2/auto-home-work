@@ -8,7 +8,7 @@ type PropsType = {
 
 export const Layout: FC<PropsType> = ({ children }) => {
     const [open, setOpen] = useState(false)
-    const handleClose = () => setOpen(false)
+    const handleClose = () => setOpen(!open)
     const handleOpen = () => setOpen(true)
 
     useEffect(() => {
@@ -18,8 +18,9 @@ export const Layout: FC<PropsType> = ({ children }) => {
 
     return (
         <>
-            <Sidebar open={open} handleClose={handleClose} />
             <Header handleOpen={handleOpen} />
+            <Sidebar open={open} handleClose={handleClose} />
+
             <div>
                 {/*страницы*/}
                 {children}

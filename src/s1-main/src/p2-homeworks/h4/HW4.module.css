@@ -1,0 +1,16 @@
+.blue {
+    border-bottom: 5px solid blue;
+}
+/* смешение классов отлично работает из разных файлов */
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testSpanError {
+    color: blue;
+}
+.row{
+    display: flex;
+}

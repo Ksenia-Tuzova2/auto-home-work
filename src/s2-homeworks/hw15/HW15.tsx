@@ -84,8 +84,8 @@ const HW15 = () => {
     }
 
     useEffect(() => {
-        const params = Object.fromEntries(searchParams)
-        sendQuery({page: params.page, count: params.count})
+         const params = Object.fromEntries(searchParams)
+         sendQuery({page: params.page, count: params.count})
         setPage(+params.page || 1)
         setCount(+params.count || 4)
     }, [])

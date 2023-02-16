@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/auto-home-work/static/css/main.18f8ca56.css",
+    "main.js": "/auto-home-work/static/js/main.ed6ddff2.js",
+    "static/js/787.66cb4309.chunk.js": "/auto-home-work/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/auto-home-work/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/auto-home-work/index.html",
+    "main.18f8ca56.css.map": "/auto-home-work/static/css/main.18f8ca56.css.map",
+    "main.ed6ddff2.js.map": "/auto-home-work/static/js/main.ed6ddff2.js.map",
+    "787.66cb4309.chunk.js.map": "/auto-home-work/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18f8ca56.css",
+    "static/js/main.ed6ddff2.js"
+  ]
+}

@@ -26,8 +26,8 @@ const getTechs = (find: string) => {
 
 const HW14 = () => {
     const [find, setFind] = useState('')
-    const [isLoading, setLoading] = useState(false)
-    const [searchParams, setSearchParams] = useSearchParams()
+     const [isLoading, setLoading] = useState(false)
+     const [searchParams, setSearchParams] = useSearchParams()
     const [techs, setTechs] = useState<string[]>([])
 
     const sendQuery = (value: string) => {
